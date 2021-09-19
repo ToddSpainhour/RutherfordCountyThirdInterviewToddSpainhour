@@ -19,7 +19,6 @@ C:\Users\todds\source\repos\RutherfordCountyThirdInterviewToddSpainhour\Rutherfo
 C:\Users\todds\source\repos\RutherfordCountyThirdInterviewToddSpainhour\RutherfordCountyThirdInterviewToddSpainhour\obj\Debug\netcoreapp3.1\RutherfordCountyThirdInterviewToddSpainhour.RazorCoreGenerate.cache
 C:\Users\todds\source\repos\RutherfordCountyThirdInterviewToddSpainhour\RutherfordCountyThirdInterviewToddSpainhour\obj\Debug\netcoreapp3.1\Razor\Pages\Error.cshtml.g.cs
 C:\Users\todds\source\repos\RutherfordCountyThirdInterviewToddSpainhour\RutherfordCountyThirdInterviewToddSpainhour\obj\Debug\netcoreapp3.1\Razor\Pages\Index.cshtml.g.cs
-C:\Users\todds\source\repos\RutherfordCountyThirdInterviewToddSpainhour\RutherfordCountyThirdInterviewToddSpainhour\obj\Debug\netcoreapp3.1\Razor\Pages\Privacy.cshtml.g.cs
 C:\Users\todds\source\repos\RutherfordCountyThirdInterviewToddSpainhour\RutherfordCountyThirdInterviewToddSpainhour\obj\Debug\netcoreapp3.1\Razor\Pages\Shared\_Layout.cshtml.g.cs
 C:\Users\todds\source\repos\RutherfordCountyThirdInterviewToddSpainhour\RutherfordCountyThirdInterviewToddSpainhour\obj\Debug\netcoreapp3.1\Razor\Pages\Shared\_ValidationScriptsPartial.cshtml.g.cs
 C:\Users\todds\source\repos\RutherfordCountyThirdInterviewToddSpainhour\RutherfordCountyThirdInterviewToddSpainhour\obj\Debug\netcoreapp3.1\Razor\Pages\_ViewImports.cshtml.g.cs

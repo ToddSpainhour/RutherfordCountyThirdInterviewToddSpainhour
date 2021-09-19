@@ -14,6 +14,8 @@ namespace RutherfordCountyThirdInterviewToddSpainhour.Pages.Employees
     {
         private readonly RutherfordCountyThirdInterviewToddSpainhour.Data.RutherfordCountyThirdInterviewToddSpainhourContext _context;
 
+        public string SearchTerm { get; set; }
+
         public IndexModel(RutherfordCountyThirdInterviewToddSpainhour.Data.RutherfordCountyThirdInterviewToddSpainhourContext context)
         {
             _context = context;
