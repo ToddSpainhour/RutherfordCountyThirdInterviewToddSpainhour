@@ -7,9 +7,11 @@
 
 <h1>Employees</h1>
 
-<p>
-    <a asp-page="Create">Create New Employee</a>
-</p>
+<div class="create-new-button-container">
+    <p>
+        <a asp-page="Create" class="btn btn small btn-success">Create New Employee</a>
+    </p>
+</div>
 <table class="table">
     <thead>
         <tr>
@@ -50,8 +52,8 @@
                 @Html.DisplayFor(modelItem => item.AnnualSalary)
             </td>
             <td>
-                <a asp-page="./Edit" asp-route-id="@item.ID">Edit</a> |
-                <a asp-page="./Delete" asp-route-id="@item.ID">Delete</a>
+                <a asp-page="./Edit" asp-route-id="@item.ID" class="btn btn small btn-outline-info" >Edit</a>
+                <a asp-page="./Delete" asp-route-id="@item.ID" class="btn btn small btn-outline-danger" >Delete</a>
             </td>
         </tr>
 }
