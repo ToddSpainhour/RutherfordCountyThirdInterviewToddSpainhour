@@ -19,7 +19,7 @@ namespace RutherfordCountyThirdInterviewToddSpainhour.Pages
 
         public void OnGet()
         {
-
+            Response.Redirect("/Employees/Index");
         }
     }
 }
