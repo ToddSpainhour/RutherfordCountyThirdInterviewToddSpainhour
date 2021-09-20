@@ -4,37 +4,27 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
+using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using RutherfordCountyThirdInterviewToddSpainhour.Data;
 using RutherfordCountyThirdInterviewToddSpainhour.Models;
 
 namespace RutherfordCountyThirdInterviewToddSpainhour.Pages.Employees
 {
-    public class DetailsModel : PageModel
+    public class SearchModel : PageModel
     {
         private readonly RutherfordCountyThirdInterviewToddSpainhour.Data.RutherfordCountyThirdInterviewToddSpainhourContext _context;
 
-        public DetailsModel(RutherfordCountyThirdInterviewToddSpainhour.Data.RutherfordCountyThirdInterviewToddSpainhourContext context)
+        public SearchModel(RutherfordCountyThirdInterviewToddSpainhour.Data.RutherfordCountyThirdInterviewToddSpainhourContext context)
         {
             _context = context;
         }
 
-        public Employee Employee { get; set; }
+        public IList<Employee> Employee { get; set; }
 
-        public async Task<IActionResult> OnGetAsync(int? id)
+        public async Task OnGetAsync()
         {
-            if (id == null)
-            {
-                return NotFound();
-            }
-
-            Employee = await _context.Employee.FirstOrDefaultAsync(m => m.ID == id);
-
-            if (Employee == null)
-            {
-                return NotFound();
-            }
-            return Page();
+            Employee = await _context.Employee.ToListAsync();
         }
     }
 }
